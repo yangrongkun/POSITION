@@ -32,13 +32,7 @@
 
 ### Abstract
 
-3D scene CAD recomposition aims to reconstruct a given scene with
-CAD models retrieved from a database to simulate the original geometry and arrangement. 
-While recent methods produce satisfactory results on closed-set databases with limited types 
-of objects, they cannot be applied in the real world with diverse objects that are unseen in 
-the training set. In this paper, we propose POSITION, an open-world 3D scene CAD recomposition 
-method to reconstruct the 3D scene with CADs retrieved from an open-set database. 
-Our POSITION consists of three steps: Firstly, we extract open-world multi-modal object representations from a captured 3D scene. Secondly, on top of the extracted representations, we propose a training-free multi-modal coarse-to-fine retrieval method to retrieve CADs that visually, geometrically and semantically match the objects. Thirdly, we present a physical plausible pose alignment method to adjust retrieved CAD models to maintain consistent geometry and layout with the observation. Extensive experiments on the Replica and ScanNet datasets demonstrate the effectiveness of our proposed POSITION.
+3D scene CAD recomposition aims to reconstruct a given scene by retrieving and assembling CAD models from a database, so as to accurately simulate the geometric properties and spatial arrangement of the original environment.While recent methods produce satisfactory results on closed-set databases with limited types of objects, they exhibit constrained transferability when being applied in the real-world scenes containing diverse out-of-distribution objects.In this paper, we propose POSITION, an open-world 3D scene CAD recomposition method to construct the 3D scene with CADs retrieved from an open-set database. POSITION is designed following a divide-and-conquer strategy. Firstly, we extract open-world multi-modal object representations from a captured 3D scene. Secondly, on top of the extracted representations, we propose a training-free coarse-to-fine retrieval method to retrieve CADs that are visually, geometrically and semantically match real objects. Thirdly, we present a physically plausible pose alignment method to adjust retrieved CAD models to maintain consistent geometry and layout with the observation. By decomposing the problem into well-defined subtasks, our approach achieves generalization across various scene types and scalable CAD databases without retraining or fine-tuning. Our approach demonstrates superior CAD recomposition performance on both the Scan2CAD benchmark and diverse real-world 3D scene datasets.
 
 
 ### Qualitative results
