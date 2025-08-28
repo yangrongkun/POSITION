@@ -10,7 +10,7 @@
 <div align="center">
 <a href="">Rongkun Yang</a><sup>1</sup>, <a href="">Hongda Liu</a><sup>1</sup>, <a href=""> Yijun Chen</a><sup>1</sup>, <a href="">Sheng Ao</a><sup>1</sup>, <a href="">Yongjian Zhang</a><sup>1</sup>,  <a href="">Longguang Wang</a><sup>1</sup>, <a href="">Kaiwen Xue</a><sup>2</sup>,  <a href="">Shunbo Zhou</a><sup>2</sup>,  <a href="">Yulan Guo</a><sup>1</sup>
 
-<sup>1</sup>Sun Yat-sen University  <sup>2</sup>Huawei Cloud Computing Technologies Co., Ltd. 
+<sup>1</sup>Sun Yat-sen University,  <sup>2</sup>Huawei Cloud Computing Technologies Co., Ltd. 
 
 [//]: # (<sup>3</sup>Aalto University <sup>4</sup>Australian National University <sup>5</sup>Linköping University)
 </div>
