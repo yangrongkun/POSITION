@@ -40,7 +40,7 @@
 <br>
 
 <div align="center">
-    <img src="./docs/qualitatives.png" width="100%">
+    <img src="./docs/qualitative_results.png" width="100%">
 </div>
 
 
